@@ -1,0 +1,54 @@
+{
+  "title": "Vocabulary-constrained rewriting and translation for dictionary-based sign language avatars, code",
+  "upload_type": "software",
+  "description": "Code of a study that measures how much a dictionary-based International Sign (IS) avatar with several hundred signs fingerspells in English meeting transcripts (AMI Meeting Corpus) and written sentences (FLORES-200), and whether rewording the text, or translating text from Greek, French, Spanish and German, into words that the avatar can sign avoids the fingerspelling without changing the meaning. The code replaces words without a sign by WordNet synonyms or by similar words judged by word vectors, rewrites and translates text with EuroLLM-1.7B-Instruct, with and without a llama.cpp grammar that restricts the output to words with a sign, translates with NLLB-200-distilled-600M, estimates the fingerspelling and signing time of a dictionary avatar, scores the meaning kept with COMET, chrF, sentence embeddings and mutual entailment, analyses the failures of restricted rewriting and writes the tables and figures of the article. Every model runs on an ordinary processor. The system outputs, scores and analyses are in the data deposit https://doi.org/10.5281/zenodo.23396571.",
+  "creators": [
+    {
+      "name": "Tantaroudas, Nikolaos D.",
+      "affiliation": "Institute of Communication and Computer Systems (ICCS)",
+      "orcid": "0000-0001-6727-1014"
+    },
+    {
+      "name": "McCracken, Andrew J.",
+      "affiliation": "DASKALOS-APPS"
+    },
+    {
+      "name": "Karachalios, Ilias",
+      "affiliation": "National Technical University of Athens"
+    },
+    {
+      "name": "Papatheou, Evangelos",
+      "affiliation": "University of Exeter"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "sign language avatar",
+    "International Sign",
+    "fingerspelling",
+    "lexical simplification",
+    "constrained decoding",
+    "machine translation",
+    "large language models",
+    "accessibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23396571",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://doi.org/10.20944/preprints202610.1279.v1",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://doi.org/10.20944/preprints202610.1475.v1",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "language": "eng"
+}

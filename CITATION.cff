@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Vocabulary-constrained rewriting and translation for dictionary-based sign language avatars, code"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Tantaroudas
+    given-names: Nikolaos D.
+    affiliation: "Institute of Communication and Computer Systems (ICCS)"
+    email: nikolaos.tantaroudas@iccs.gr
+    orcid: "https://orcid.org/0000-0001-6727-1014"
+  - family-names: McCracken
+    given-names: Andrew J.
+    affiliation: "DASKALOS-APPS"
+  - family-names: Karachalios
+    given-names: Ilias
+    affiliation: "National Technical University of Athens"
+  - family-names: Papatheou
+    given-names: Evangelos
+    affiliation: "University of Exeter"
+keywords:
+  - sign language avatar
+  - International Sign
+  - fingerspelling
+  - lexical simplification
+  - constrained decoding
+  - machine translation
+  - large language models
+  - accessibility
+repository-code: "https://github.com/ntantaroudas/constrained-translation-sign-avatar"
+date-released: 2026-10-15

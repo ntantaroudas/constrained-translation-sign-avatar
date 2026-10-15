@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+venv_comet/
+.venv/
+models/
+data/raw/
+data/nltk_data/
+results/
+*.log

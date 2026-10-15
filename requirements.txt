@@ -1,0 +1,21 @@
+# Main environment (Python 3.13, CPU only)
+llama_cpp_python==0.3.16
+ctranslate2==4.8.2
+transformers==5.18.0
+sentencepiece==0.2.2
+huggingface_hub==1.33.0
+torch==2.14.1          # CPU wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers==6.1.0
+spacy==3.8.16
+# spaCy models: en_core_web_sm 3.8.0, en_core_web_lg 3.8.0 (GitHub releases of explosion/spacy-models)
+nltk==3.10.3           # WordNet 3.0 data: nltk.download("wordnet")
+lemminflect==0.2.3
+wordfreq==3.1.1
+simplemma==2.0.0
+scikit-learn==1.9.1
+sacrebleu==2.5.1
+numpy==2.5.3
+pandas==3.0.6
+pycountry==26.2.16     # country and territory names (failure analysis)
+adjustText==1.4.0      # label placement in Figure 1
+matplotlib==3.11.2
