@@ -1,5 +1,7 @@
 # Vocabulary-constrained rewriting and translation for dictionary-based sign language avatars
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23396881.svg)](https://doi.org/10.5281/zenodo.23396881)
+
 Code of the study "Say it so the avatar can sign it, rewriting and translating text into the vocabulary of a
 dictionary-based sign language avatar" by Nikolaos D. Tantaroudas, Andrew J. McCracken, Ilias Karachalios and
 Evangelos Papatheou.
@@ -19,6 +21,8 @@ ordinary processor (two threads, 8 GB of memory), and no human participants were
 | Data deposit (system outputs, scores, tables and failure analyses, CC BY 4.0 and CC BY-SA 4.0) | https://doi.org/10.5281/zenodo.23396571 |
 | Preprint, rewriting English text | https://doi.org/10.20944/preprints202610.1279.v1 |
 | Preprint, translating from Greek, French, Spanish and German | https://doi.org/10.20944/preprints202610.1475.v1 |
+| Archived release of this software, version 1.0.0 | https://doi.org/10.5281/zenodo.23396881 |
+| All versions of this software | https://doi.org/10.5281/zenodo.23396880 |
 
 ## Methods
 
